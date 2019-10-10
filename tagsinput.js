@@ -1,9 +1,19 @@
 /*
  * bootstrap-tagsinput v0.8.0
- * 
+ *
  */
 
-(function ($) {
+(function (factory) {
+    if (typeof define === 'function' && define.amd) { // AMD. Register as an anonymous module.
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object') { // Node/CommonJS
+        var jQuery = require('jquery');
+        module.exports = factory(jQuery);
+    } else { // Browser globals (zepto supported)
+        factory(window.jQuery || window.Zepto || window.$); // Zepto supported on browsers as well
+    }
+
+}(function ($) {
   "use strict";
 
   var defaultOptions = {
@@ -688,4 +698,4 @@
   $(function() {
     $("input[data-role=tagsinput], select[multiple][data-role=tagsinput]").tagsinput();
   });
-})(window.jQuery);
+}));
