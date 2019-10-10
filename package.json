@@ -2,7 +2,7 @@
     "name": "bootstrap4-tagsinput-umd",
     "title": "Bootstrap 4 Tagsinput",
     "description": "jQuery tags input plugin based on Twitter Bootstrap 4",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/mightytroll/bootstrap4-tagsinput.git"
