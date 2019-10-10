@@ -11,5 +11,9 @@
     "homepage": "https://github.com/mightytroll/bootstrap4-tagsinput",
     "dependencies": {
         "np": "^5.1.0"
-    }
+    },
+    "files": [
+        "tagsinput.js",
+        "tagsinput.css"
+    ],
 }
