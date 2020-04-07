@@ -110,7 +110,7 @@
 }
 
 .tt-suggestion:hover,
-.tt-suggestion:focus {
+.tt-suggestion:focus, .tt-cursor {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
